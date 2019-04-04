@@ -10,7 +10,7 @@ int i;
 float ii;
 
 int main(){
-    drand(48)
+    drand(48);
     numero = rand();
     for (i=0;i=1000; i++){
         funcion(1000);
@@ -31,10 +31,11 @@ void funcion(int N){
     float y (float x){
         float x = exp(-x*x/2);
         if ( (x > 3.14) | (x<0)){
-            y = 0
+            y = 0;
         }else {
-        ii = ( x > 3.14) | ( x < 0)
-        ii = 0}
+        ii = ( x > 3.14) | ( x < 0);
+        ii = 0;
+        }
     }
 }       
 
